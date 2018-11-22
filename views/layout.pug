@@ -1,0 +1,15 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css')
+    h1 #{title}
+    nav(style='background-color: coral')
+     ul
+      li
+       a(href='/getAllHeros' style='background-color: rgba(0,0,255,0.3);') Heroes
+      li
+       a(href='/' style='background-color: rgba(0,0,255,0.1);') Home
+  body
+    block content

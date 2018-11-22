@@ -1,0 +1,35 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  
+}
+
+
+a {
+  color: #00B7FF;
+  font-size: 25px;
+}
+h2 {
+	font-style: oblique;
+	
+}
+h1{
+	font-weight: bold;
+	font-style: oblique;
+	text-align: center;
+}
+ul {
+    font-family: "Times New Roman", Times, serif;
+    list-style-type: square;
+}
+li{
+	list-style-type: square;
+}
+p{
+	border-color: coral;
+	border-collapse: separate;
+    border-spacing: 15px;
+}
+nav{
+	background-image: url('https://www.google.com/imgres?imgurl=https%3A%2F%2Fgallery-wallpaper.com%2Fwp-content%2Fuploads%2F2018%2F02%2Fmarvel-superheroes-hd-wallpaper-marvel-superhero-wallpaper.jpg&imgrefurl=https%3A%2F%2Fgallery-wallpaper.com%2Fmarvel-superheroes-hd-wallpaper%2Fmarvel-superheroes-hd-wallpaper-marvel-superhero-wallpaper%2F&docid=2hmT0gO3K9JgrM&tbnid=W6od3hVYgLfSmM%3A&vet=12ahUKEwi8msjh_uTeAhVEPY8KHbE5DYA4kAMQMyhRMFF6BAgBEFI..i&w=1280&h=854&client=firefox-b-ab&bih=654&biw=1366&q=superheroes%20wallpaper&ved=2ahUKEwi8msjh_uTeAhVEPY8KHbE5DYA4kAMQMyhRMFF6BAgBEFI&iact=mrc&uact=8');
+}

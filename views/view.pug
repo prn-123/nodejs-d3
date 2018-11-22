@@ -1,0 +1,17 @@
+
+extends layout
+
+block content
+
+	each val in data
+		.row
+			h1 #{val.superhero} 
+						p Id: #{val.id}
+						p Real Name: #{val.alter_ego}
+						p Publisher: #{val.publisher}
+						p Alter_ego: #{val.alter_ego}
+						p First_appearance: #{val.first_appearance}
+						p Characters: #{val.characters}
+						p Is_valid: #{val.is_valid}
+						p Update_time: #{val.update_time}
+
