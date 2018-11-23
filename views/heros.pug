@@ -18,5 +18,9 @@ block content
 								form(method='get', action='delete')
 									input(type='hidden', name='id',value=val.id)
 									button(type='submit') Delete
-								a(href='viewHero?id='+val.id) View
+								ul
+									li
+										a(href='viewHero?id='+val.id) View
+									li
+										a(href='update?id='+val.id) Update
 							

@@ -35,6 +35,22 @@ router.get('/viewHero', function(req,res,next){
     .catch(console.log('ERR:Fetching data from database'))
 });
 
+router.get('/update', function(req,res,next){
+	Heros.getHero(req.query)
+	.then(function(retVal){
+	res.render('update' ,{data:retVal})
+    })
+    .catch(console.log('ERR:Updating data from database'))
+});
+router.get('/updateHero', function(req,res,next){
+	Heros.update(req.query)
+	.then(function(){
+	res.redirect('/getAllHeros')
+    })
+    .catch(console.log('ERR:Updating data from database'))
+});
+
+
 
 
 module.exports = router;

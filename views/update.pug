@@ -1,0 +1,45 @@
+extends layout
+
+block content
+
+	each val in data
+		.row
+				h1 #{val.superhero}		
+					form(method='get', action='updateHero')
+						input(type='hidden', name='id',value=val.id)
+						.row
+							label SuperHero
+								.row
+									.input-field.col.s6
+										input#first_name.validate(type='text', name='superhero', value =   val.superhero)
+							label Publisher
+								.row
+									.input-field.col.s6
+										input#first_name.validate(type='text', name='publisher', value = val.publisher)
+							label Alter_ego
+								.row
+									.input-field.col.s6
+										input#first_name.validate(type='text', name='alter_ego', value=val.alter_ego)
+							label First_appearance
+								.row
+									.input-field.col.s6
+										input#first_name.validate(type='text', name='first_appearance', value=val.first_appearance)
+							label Characters
+								.row
+									.input-field.col.s6
+										input#first_name.validate(type='text', name='characters', value=val.characters)
+							label Is_valid
+								.row
+									.input-field.col.s6
+										input#first_name.validate(type='text', name='is_valid', value=val.is_valid)
+							label Update time
+								.row
+									.input-field.col.s6
+										input#first_name.validate(type='text', name='update_time', value=val.update_time)
+
+							button(type='submit') Update
+
+
+
+									
+									
